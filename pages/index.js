@@ -8,6 +8,8 @@ import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
 
+import { Navbar } from '../components/Navbar';
+
 export default function Index({ posts, globalData }) {
   return (
     <Layout>

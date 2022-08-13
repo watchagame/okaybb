@@ -15,3 +15,29 @@ h6 {
 body {
   font-family: var(--font-secondary);
 }
+
+header {
+  padding: 0;
+}
+
+/* header {
+  background-color: ;
+} */
+
+nav {
+  position: sticky;
+  top: 0rem;
+  background: transparent;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  /* FIX */
+  z-index: 300;
+}
+
+/* main {
+  height: 100vh;
+  background-color: #99d;
+}
+*/
