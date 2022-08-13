@@ -50,13 +50,13 @@ module.exports = {
         secondary: 'var(--font-secondary)',
       },
       theme: {
-        bejamas: {
+        greenie: {
           colors: {
-            primary: '#FF8585',
-            'gradient-1': '#7d7aff',
-            'gradient-2': '#2121E2',
-            'gradient-3': '#FF76B8',
-            'gradient-4': '#001AFF',
+            primary: '#4cd982',
+            'gradient-1': '#6BFE95',
+            'gradient-2': '#4cd982',
+            'gradient-3': '#4cd982',
+            'gradient-4': '#16f8a76',
           },
         },
       },
