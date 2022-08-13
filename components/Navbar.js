@@ -15,7 +15,13 @@ export const Navbar = () => {
       <nav className="flex items-center flex-wrap p-1 backdrop-filter backdrop-blur-lg ">
         <Link href="/">
           <a className="inline-flex items-center p-2 mr-4 ">
-            <Image src={bball} width="50%" height="50%" objectFit="contain" />
+            <Image
+              src={bball}
+              width="50%"
+              height="50%"
+              objectFit="contain"
+              alt="Logo"
+            />
             <span className="text-xl text-white font-bold uppercase tracking-wide"></span>
           </a>
         </Link>
