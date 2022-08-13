@@ -22,7 +22,7 @@ export default function Layout({ children }) {
     if (darkMode) {
       document.documentElement.classList.add('dark');
     } else if (lightMode) {
-      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.remove('light');
     }
     return;
   };
