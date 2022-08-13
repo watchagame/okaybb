@@ -9,7 +9,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title></title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
