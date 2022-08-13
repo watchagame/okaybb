@@ -19,10 +19,12 @@ export default function Layout({ children }) {
     const darkMode = localStorage.getItem('theme') === 'dark';
     const lightMode = localStorage.getItem('theme') === 'light';
 
+    document.documentElement.classList.add('dark');
+
     if (darkMode) {
       document.documentElement.classList.add('dark');
     } else if (lightMode) {
-      document.documentElement.classList.remove('light');
+      document.documentElement.classList.remove('dark');
     }
     return;
   };
@@ -47,7 +49,8 @@ export default function Layout({ children }) {
 
   useEffect(() => {
     handleSystemThemeChange();
-  }, []);
+    document.documentElement.classList.add('theme');
+  }, ['theme']);
 
   return (
     <div className="relative pb-24 overflow-hidden">

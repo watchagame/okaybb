@@ -44,3 +44,6 @@
   filter: blur(44px);
   z-index: -1;
 }
+
+@media (prefers-color-scheme: dark) {
+}

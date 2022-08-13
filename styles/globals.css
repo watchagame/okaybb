@@ -3,6 +3,8 @@
 @tailwind utilities;
 @tailwind variants;
 
+@media (prefers-color-scheme: darkMode) {
+}
 h1,
 h2,
 h3,
