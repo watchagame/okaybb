@@ -1,38 +1,38 @@
 exports.COLOR_THEMES = {
   default: {
     colors: {
-      primary: '#7D7AFF',
-      'gradient-1': '#7d7aff',
-      'gradient-2': '#2121e2',
-      'gradient-3': '#00fff0',
-      'gradient-4': '#8785FF',
+      primary: '#4cd982',
+      'gradient-1': '#6BFE95',
+      'gradient-2': '#4cd982',
+      'gradient-3': '#4cd982',
+      'gradient-4': '#16f8a76',
     },
   },
   bejamas: {
     colors: {
-      primary: '#FF8585',
-      'gradient-1': '#7d7aff',
-      'gradient-2': '#2121E2',
-      'gradient-3': '#FF76B8',
-      'gradient-4': '#001AFF',
+      primary: '#4cd982',
+      'gradient-1': '#6BFE95',
+      'gradient-2': '#4cd982',
+      'gradient-3': '#4cd982',
+      'gradient-4': '#16f8a76',
     },
   },
   netlify: {
     colors: {
-      primary: '#00A354',
-      'gradient-1': '#00F0FF',
-      'gradient-2': '#00F0FF',
-      'gradient-3': '#FAFF00',
-      'gradient-4': '#00F0FF',
+      primary: '#4cd982',
+      'gradient-1': '#6BFE95',
+      'gradient-2': '#4cd982',
+      'gradient-3': '#4cd982',
+      'gradient-4': '#16f8a76',
     },
   },
   reddie: {
     colors: {
-      primary: '#FF4D4D',
-      'gradient-1': '#FFC700',
-      'gradient-2': '#FF85DD',
-      'gradient-3': '#FF85DD',
-      'gradient-4': '#FF8585',
+      primary: '#4cd982',
+      'gradient-1': '#6BFE95',
+      'gradient-2': '#4cd982',
+      'gradient-3': '#4cd982',
+      'gradient-4': '#16f8a76',
     },
   },
   greenie: {
