@@ -43,3 +43,6 @@ nav {
   background-color: #99d;
 }
 */
+.table-wrapper {
+  overflow-x: scroll;
+}
