@@ -7,8 +7,9 @@ class MyDocument extends Document {
       <Html lang="en" className="theme-compiled">
         <Head />
         <body
-          className={`antialiased text-lg bg-whiten dark:bg-gray-900 dark:text-white leading-base`}
+          className={`antialiased text-lg dark:bg-gray-900 dark:text-white leading-base`}
         >
+          <script>0</script>
           <Main />
           <NextScript />
         </body>
