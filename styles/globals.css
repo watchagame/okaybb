@@ -16,10 +16,18 @@ h6 {
 
 body {
   font-family: var(--font-secondary);
+  overflow-wrap: break-word;
 }
 
 header {
   padding: 0;
+}
+
+tr,
+td {
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-x: auto;
 }
 
 /* header {
@@ -45,4 +53,21 @@ nav {
 */
 .table-wrapper {
   overflow-x: scroll;
+}
+
+.video_container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video_container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+article {
+  justify-content: center;
 }

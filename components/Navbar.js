@@ -51,7 +51,7 @@ export const Navbar = () => {
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
-            <Link href="/services">
+            <Link href="https://twitter.com/okaybasketball">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:brightness-150 hover:text-white">
                 <svg
                   class="h-8 w-8 text-blue-400"
@@ -67,7 +67,7 @@ export const Navbar = () => {
                 </svg>
               </a>
             </Link>
-            <Link href="/about">
+            <Link href="https://www.youtube.com/channel/UC_LUMiBJIpM6xFKU30t0EVg">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:brightness-200 hover:text-white">
                 <svg
                   class="h-8 w-8 text-red-500"
@@ -84,7 +84,7 @@ export const Navbar = () => {
                 </svg>
               </a>
             </Link>
-            <Link href="/contact">
+            <Link href="mailto:hiokaybasketball@gmail.com">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:brightness-150 hover:text-white">
                 <svg
                   class="h-8 w-8 text-green-400"
