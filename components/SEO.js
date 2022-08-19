@@ -14,7 +14,10 @@ export default function SEO({ title, description, image }) {
       <meta name="twitter:name" content="okaybasketball" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={image} />
+      <meta
+        name="twitter:image"
+        content="https://www.okaybasketball.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhi.0c4f657d.png&w=3840&q=75"
+      />
     </Head>
   );
 }
