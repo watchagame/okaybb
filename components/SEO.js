@@ -12,8 +12,8 @@ export default function SEO({ title, description, image }) {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta
-        property="twitter:image:src"
-        content="https://github.com/watchagame/okaybb/blob/main/public/images/bball.png"
+        name="twitter:image"
+        content="https://psgc-api.wareneutron.com/wareneutron_psgc_api_opengraph.jpg"
       />
     </Head>
   );

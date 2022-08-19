@@ -1,5 +1,6 @@
 export const getGlobalData = () => {
-  const image = '/images/bball.png';
+  const image =
+    'https://psgc-api.wareneutron.com/wareneutron_psgc_api_opengraph.jpg';
   const name = process.env.BLOG_NAME
     ? decodeURI(process.env.BLOG_NAME)
     : 'Okay Basketball';
