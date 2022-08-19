@@ -10,7 +10,9 @@ export const getGlobalData = () => {
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
-  const image = process.env.IMAGE ? decodeURI(process.env.IMAGE) : 'bball.png';
+  const image = process.env.IMAGE
+    ? decodeURI(process.env.IMAGE)
+    : '/images/bball.png';
 
   return {
     name,

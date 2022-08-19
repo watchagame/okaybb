@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/public/favicon.ico" />
       </Head>
       <Navbar />
       <span className="theme-bejamas" />
