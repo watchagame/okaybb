@@ -10,7 +10,10 @@ export default function SEO({ title, description, image }) {
       <meta property="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content="/images/hi.png" />
+      <meta
+        property="twitter:image"
+        content="https://i.postimg.cc/zDL7Rj01/logotest3.png"
+      />
     </Head>
   );
 }
