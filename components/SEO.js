@@ -41,6 +41,10 @@ export default function SEO({ title, description }) {
       {/*<!-- Twitter Meta Tags -->*/}
       <meta name="twitter:title" content={pageProps.title || defaults.title} />
       <meta
+        name="twitter:text:title"
+        content={pageProps.title || defaults.title}
+      />
+      <meta
         name="twitter:description"
         content={pageProps.description || defaults.description}
       />
