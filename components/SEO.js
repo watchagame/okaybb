@@ -12,8 +12,8 @@ export default function SEO({ title, description, image }) {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta
-        name="twitter:image"
-        content="https://i.postimg.cc/zDL7Rj01/logotest3.png"
+        property="twitter:image:src"
+        content="https://github.com/watchagame/okaybb/blob/main/public/images/bball.png"
       />
     </Head>
   );
