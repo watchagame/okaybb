@@ -28,7 +28,7 @@ export default function App() {
       />
       <div className="image-container">
         {imageUrls.map((src) => (
-          <Image src={src} alt="Player" />
+          <Image src={src} alt="Player" key={player.id} />
         ))}
       </div>
     </div>
