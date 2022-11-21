@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './styles.css';
+import Image from 'next/image';
 
 function getImageUrls(id) {
   if (id === undefined) {
@@ -21,12 +22,12 @@ export default function App() {
       <input
         placeholder="Enter player id"
         type="number"
-        value={id}
-        onChange={(e) => setId(e.target.value)}
+        key={id}
+        onChange={(e) => setId(e.target.key)}
       />
       <div className="image-container">
         {imageUrls.map((src) => (
-          <img src={src} alt="Player" />
+          <Image src={src} alt="Player" />
         ))}
       </div>
     </div>
