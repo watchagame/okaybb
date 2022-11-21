@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles.css';
+//import './styles.css';
 import Image from 'next/image';
 import { PRERENDER_REVALIDATE_ONLY_GENERATED_HEADER } from 'next/dist/server/api-utils';
 
