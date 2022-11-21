@@ -18,12 +18,12 @@ export default function App() {
 
   const imageUrls = getImageUrls(id);
   return (
-    <div className="App">
+    <div className="App" key={Image.src}>
       <input
         placeholder="Enter player id"
         type="number"
-        key={id}
-        onChange={(e) => setId(e.target.key)}
+        value={id}
+        onChange={(e) => setId(e.target.value)}
       />
       <div className="image-container">
         {imageUrls.map((src) => (
