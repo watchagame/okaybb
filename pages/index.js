@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
+import playerPhoto from './pages/playerPhoto.js';
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
