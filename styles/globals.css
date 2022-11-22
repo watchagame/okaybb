@@ -40,6 +40,7 @@ nav {
   background: transparent;
   overflow: hidden;
   top: 0;
+  max-height: auto;
   width: 100%;
   position: fixed;
   /* FIX */
@@ -70,4 +71,8 @@ nav {
 
 article {
   justify-content: center;
+}
+
+#search .nav {
+  display: none;
 }
