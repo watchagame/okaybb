@@ -4,3 +4,9 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+from = “/nbacup/*”
+to = “https://stunning-brioche-52b12c.netlify.app/”
+status = 200
+force = true
